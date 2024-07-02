@@ -28,46 +28,11 @@ struct CardView: View {
                                  endPoint: .bottom
                                 )
                             )
+                        
                         Spacer()
                         
                         Button(action: {}, label: {
-                            ZStack {
-                                Circle()
-                                    .fill(
-                                    LinearGradient(
-                                        colors: [
-                                            .CustomWhite,
-                                            .customGreenLight,
-                                            .customGreenMedium
-                                        ],
-                                        startPoint: .top,
-                                        endPoint: .bottom)
-                                    )
-                                    .stroke(
-                                        LinearGradient(
-                                            colors: [
-                                                .customGrayLight,
-                                                .customGrayMedium
-                                        ],
-                                            startPoint: .top,
-                                            endPoint: .bottom),
-                                        lineWidth: 4
-                                    )
-                                Image(systemName: "figure.hiking")
-                                    .fontWeight(.black)
-                                    .font(.system(size: 30))
-                                    .foregroundStyle(
-                                    LinearGradient(
-                                        colors: [
-                                            .customGrayLight,
-                                            .customGrayMedium
-                                        ],
-                                        startPoint: .top,
-                                        endPoint: .bottom)
-                                    )
-                            }
-                            .frame(width: 58, height: 58)
-                            .padding()
+                          CustomButtonView()
                         })
                     }
                 }
