@@ -32,7 +32,7 @@ struct CardView: View {
                         Spacer()
                         
                         Button(action: {}, label: {
-                          CustomButtonView()
+                            CustomButtonView()
                         })
                     }
                     Text("Fun and ejoyable outdoor activities for friends and families.")
@@ -52,6 +52,24 @@ struct CardView: View {
                         .animation(.easeOut(duration: 2), value: 1)
                     
                 }
+                
+                //MARK: FOOTER VIEW
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                    Text("Exlpore More")
+                        .font(.title2)
+                        .fontWeight(.heavy)
+                        .foregroundStyle(
+                        LinearGradient(
+                            colors: [
+                                .customGreenLight,
+                                .customGreenMedium
+                            ],
+                            startPoint: .top,
+                            endPoint: .bottom)
+                        )
+                        .shadow(color: .black.opacity(0.25), radius: 0.25, x: 1, y: 2)
+                })
+                .buttonStyle(GradientButton())
             }
         }
         .frame(width: 320, height: 570)
