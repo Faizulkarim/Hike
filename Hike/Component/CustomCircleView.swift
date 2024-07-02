@@ -28,6 +28,7 @@ struct CustomCircleView: View {
                         isAnimateGradient.toggle()
                     }
                 })
+            MotionAnimationView()
         }
         .frame(width: 256, height: 256)
     }
