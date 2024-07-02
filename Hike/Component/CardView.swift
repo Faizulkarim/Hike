@@ -41,6 +41,17 @@ struct CardView: View {
                         .foregroundColor(.customGrayMedium)
                 }
                 .padding(.horizontal, 30)
+                
+                
+                //MARK: MAIN CONTENT VIEW
+                ZStack {
+                    CustomCircleView()
+                    Image("image-1")
+                        .resizable()
+                        .scaledToFit()
+                        .animation(.easeOut(duration: 2), value: 1)
+                    
+                }
             }
         }
         .frame(width: 320, height: 570)

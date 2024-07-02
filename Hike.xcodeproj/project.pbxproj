@@ -15,6 +15,7 @@
 		1DD16B4C2C33B91C00845FDC /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD16B4B2C33B91C00845FDC /* CustomBackgroundView.swift */; };
 		1DD16B502C33BB0100845FDC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD16B4F2C33BB0100845FDC /* CardView.swift */; };
 		1DD16B522C33CF3400845FDC /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD16B512C33CF3400845FDC /* CustomButtonView.swift */; };
+		1DD16B542C33D67E00845FDC /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD16B532C33D67E00845FDC /* CustomCircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		1DD16B4B2C33B91C00845FDC /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		1DD16B4F2C33BB0100845FDC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		1DD16B512C33CF3400845FDC /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		1DD16B532C33D67E00845FDC /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				1DD16B4F2C33BB0100845FDC /* CardView.swift */,
 				1DD16B4B2C33B91C00845FDC /* CustomBackgroundView.swift */,
 				1DD16B512C33CF3400845FDC /* CustomButtonView.swift */,
+				1DD16B532C33D67E00845FDC /* CustomCircleView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				1DD16B4A2C33B43E00845FDC /* ColorExtension.swift in Sources */,
 				1DD16B392C32F52400845FDC /* ContentView.swift in Sources */,
 				1DD16B372C32F52400845FDC /* HikeApp.swift in Sources */,
+				1DD16B542C33D67E00845FDC /* CustomCircleView.swift in Sources */,
 				1DD16B522C33CF3400845FDC /* CustomButtonView.swift in Sources */,
 				1DD16B4C2C33B91C00845FDC /* CustomBackgroundView.swift in Sources */,
 				1DD16B502C33BB0100845FDC /* CardView.swift in Sources */,
