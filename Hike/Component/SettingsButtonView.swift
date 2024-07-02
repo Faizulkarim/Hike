@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CustomButtonView: View {
+struct SettingsButtonView: View {
     var body: some View {
         ZStack {
             Circle()
@@ -50,5 +50,5 @@ struct CustomButtonView: View {
 }
 
 #Preview {
-    CustomButtonView()
+    SettingsButtonView()
 }

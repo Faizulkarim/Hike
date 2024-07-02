@@ -14,10 +14,11 @@
 		1DD16B4A2C33B43E00845FDC /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD16B492C33B43E00845FDC /* ColorExtension.swift */; };
 		1DD16B4C2C33B91C00845FDC /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD16B4B2C33B91C00845FDC /* CustomBackgroundView.swift */; };
 		1DD16B502C33BB0100845FDC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD16B4F2C33BB0100845FDC /* CardView.swift */; };
-		1DD16B522C33CF3400845FDC /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD16B512C33CF3400845FDC /* CustomButtonView.swift */; };
+		1DD16B522C33CF3400845FDC /* SettingsButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD16B512C33CF3400845FDC /* SettingsButtonView.swift */; };
 		1DD16B542C33D67E00845FDC /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD16B532C33D67E00845FDC /* CustomCircleView.swift */; };
 		1DD16B562C33F32E00845FDC /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD16B552C33F32E00845FDC /* MotionAnimationView.swift */; };
 		1DD16B582C33FF9700845FDC /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD16B572C33FF9700845FDC /* GradientButtonStyle.swift */; };
+		1DD16B5A2C3408C600845FDC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD16B592C3408C500845FDC /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,10 +30,11 @@
 		1DD16B492C33B43E00845FDC /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		1DD16B4B2C33B91C00845FDC /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		1DD16B4F2C33BB0100845FDC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		1DD16B512C33CF3400845FDC /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		1DD16B512C33CF3400845FDC /* SettingsButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsButtonView.swift; sourceTree = "<group>"; };
 		1DD16B532C33D67E00845FDC /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
 		1DD16B552C33F32E00845FDC /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		1DD16B572C33FF9700845FDC /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
+		1DD16B592C3408C500845FDC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				1DD16B382C32F52400845FDC /* ContentView.swift */,
+				1DD16B592C3408C500845FDC /* SettingsView.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -96,7 +99,7 @@
 			children = (
 				1DD16B4F2C33BB0100845FDC /* CardView.swift */,
 				1DD16B4B2C33B91C00845FDC /* CustomBackgroundView.swift */,
-				1DD16B512C33CF3400845FDC /* CustomButtonView.swift */,
+				1DD16B512C33CF3400845FDC /* SettingsButtonView.swift */,
 				1DD16B532C33D67E00845FDC /* CustomCircleView.swift */,
 				1DD16B552C33F32E00845FDC /* MotionAnimationView.swift */,
 			);
@@ -187,7 +190,8 @@
 				1DD16B392C32F52400845FDC /* ContentView.swift in Sources */,
 				1DD16B372C32F52400845FDC /* HikeApp.swift in Sources */,
 				1DD16B542C33D67E00845FDC /* CustomCircleView.swift in Sources */,
-				1DD16B522C33CF3400845FDC /* CustomButtonView.swift in Sources */,
+				1DD16B5A2C3408C600845FDC /* SettingsView.swift in Sources */,
+				1DD16B522C33CF3400845FDC /* SettingsButtonView.swift in Sources */,
 				1DD16B562C33F32E00845FDC /* MotionAnimationView.swift in Sources */,
 				1DD16B4C2C33B91C00845FDC /* CustomBackgroundView.swift in Sources */,
 				1DD16B502C33BB0100845FDC /* CardView.swift in Sources */,
