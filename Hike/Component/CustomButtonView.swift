@@ -45,7 +45,6 @@ struct CustomButtonView: View {
                 )
         }
         .frame(width: 58, height: 58)
-        .padding()
         
     }
 }

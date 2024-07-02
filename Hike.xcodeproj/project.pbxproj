@@ -88,8 +88,8 @@
 		1DD16B452C32F94C00845FDC /* Component */ = {
 			isa = PBXGroup;
 			children = (
-				1DD16B4B2C33B91C00845FDC /* CustomBackgroundView.swift */,
 				1DD16B4F2C33BB0100845FDC /* CardView.swift */,
+				1DD16B4B2C33B91C00845FDC /* CustomBackgroundView.swift */,
 				1DD16B512C33CF3400845FDC /* CustomButtonView.swift */,
 			);
 			path = Component;

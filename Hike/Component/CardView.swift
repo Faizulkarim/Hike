@@ -35,7 +35,12 @@ struct CardView: View {
                           CustomButtonView()
                         })
                     }
+                    Text("Fun and ejoyable outdoor activities for friends and families.")
+                        .multilineTextAlignment(.leading)
+                        .italic()
+                        .foregroundColor(.customGrayMedium)
                 }
+                .padding(.horizontal, 30)
             }
         }
         .frame(width: 320, height: 570)
