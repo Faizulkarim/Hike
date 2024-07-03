@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1DD16B372C32F52400845FDC /* HikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD16B362C32F52400845FDC /* HikeApp.swift */; };
-		1DD16B392C32F52400845FDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD16B382C32F52400845FDC /* ContentView.swift */; };
 		1DD16B3B2C32F52700845FDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD16B3A2C32F52700845FDC /* Assets.xcassets */; };
 		1DD16B3E2C32F52700845FDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD16B3D2C32F52700845FDC /* Preview Assets.xcassets */; };
 		1DD16B4A2C33B43E00845FDC /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD16B492C33B43E00845FDC /* ColorExtension.swift */; };
@@ -20,12 +19,15 @@
 		1DD16B582C33FF9700845FDC /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD16B572C33FF9700845FDC /* GradientButtonStyle.swift */; };
 		1DD16B5A2C3408C600845FDC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD16B592C3408C500845FDC /* SettingsView.swift */; };
 		1DD16B812C35522200845FDC /* CustomListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD16B802C35522200845FDC /* CustomListCellView.swift */; };
+		1DD16B862C35D1C100845FDC /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD16B382C32F52400845FDC /* DashboardView.swift */; };
+		1DD16B882C35D30800845FDC /* SettingsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD16B872C35D30800845FDC /* SettingsHeader.swift */; };
+		1DD16B8A2C35D41700845FDC /* AlternativeIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD16B892C35D41700845FDC /* AlternativeIconView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1DD16B332C32F52400845FDC /* Hike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD16B362C32F52400845FDC /* HikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeApp.swift; sourceTree = "<group>"; };
-		1DD16B382C32F52400845FDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1DD16B382C32F52400845FDC /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		1DD16B3A2C32F52700845FDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DD16B3D2C32F52700845FDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1DD16B492C33B43E00845FDC /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
@@ -37,6 +39,8 @@
 		1DD16B572C33FF9700845FDC /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
 		1DD16B592C3408C500845FDC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		1DD16B802C35522200845FDC /* CustomListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListCellView.swift; sourceTree = "<group>"; };
+		1DD16B872C35D30800845FDC /* SettingsHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsHeader.swift; sourceTree = "<group>"; };
+		1DD16B892C35D41700845FDC /* AlternativeIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternativeIconView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				1DD16B462C33AF1C00845FDC /* Utility */,
-				1DD16B452C32F94C00845FDC /* Component */,
 				1DD16B442C32F6A100845FDC /* Screen */,
 				1DD16B362C32F52400845FDC /* HikeApp.swift */,
 				1DD16B3A2C32F52700845FDC /* Assets.xcassets */,
@@ -90,8 +93,8 @@
 		1DD16B442C32F6A100845FDC /* Screen */ = {
 			isa = PBXGroup;
 			children = (
-				1DD16B382C32F52400845FDC /* ContentView.swift */,
-				1DD16B592C3408C500845FDC /* SettingsView.swift */,
+				1DD16B842C3561A000845FDC /* Settings */,
+				1DD16B822C35617200845FDC /* Dashboard */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -104,7 +107,6 @@
 				1DD16B512C33CF3400845FDC /* SettingsButtonView.swift */,
 				1DD16B532C33D67E00845FDC /* CustomCircleView.swift */,
 				1DD16B552C33F32E00845FDC /* MotionAnimationView.swift */,
-				1DD16B802C35522200845FDC /* CustomListCellView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -116,6 +118,34 @@
 				1DD16B572C33FF9700845FDC /* GradientButtonStyle.swift */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		1DD16B822C35617200845FDC /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				1DD16B452C32F94C00845FDC /* Component */,
+				1DD16B382C32F52400845FDC /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		1DD16B842C3561A000845FDC /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				1DD16B852C3561AD00845FDC /* Component */,
+				1DD16B592C3408C500845FDC /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		1DD16B852C3561AD00845FDC /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				1DD16B802C35522200845FDC /* CustomListCellView.swift */,
+				1DD16B872C35D30800845FDC /* SettingsHeader.swift */,
+				1DD16B892C35D41700845FDC /* AlternativeIconView.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,13 +218,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DD16B8A2C35D41700845FDC /* AlternativeIconView.swift in Sources */,
 				1DD16B582C33FF9700845FDC /* GradientButtonStyle.swift in Sources */,
 				1DD16B4A2C33B43E00845FDC /* ColorExtension.swift in Sources */,
-				1DD16B392C32F52400845FDC /* ContentView.swift in Sources */,
 				1DD16B812C35522200845FDC /* CustomListCellView.swift in Sources */,
 				1DD16B372C32F52400845FDC /* HikeApp.swift in Sources */,
 				1DD16B542C33D67E00845FDC /* CustomCircleView.swift in Sources */,
+				1DD16B882C35D30800845FDC /* SettingsHeader.swift in Sources */,
 				1DD16B5A2C3408C600845FDC /* SettingsView.swift in Sources */,
+				1DD16B862C35D1C100845FDC /* DashboardView.swift in Sources */,
 				1DD16B522C33CF3400845FDC /* SettingsButtonView.swift in Sources */,
 				1DD16B562C33F32E00845FDC /* MotionAnimationView.swift in Sources */,
 				1DD16B4C2C33B91C00845FDC /* CustomBackgroundView.swift in Sources */,
