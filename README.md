@@ -1,4 +1,4 @@
-# HikeApp
+# Hike
 
 
 ## Overview
