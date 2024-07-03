@@ -5,11 +5,12 @@
 Hike is a demo iOS app developed to practice SwiftUI. The app features a dynamic dashboard with stunning hiking images and a settings page for app customization.
 
 ## Features
-### Dynamic Dashboard: Tap a button on the dashboard to change the hiking image randomly.
+### Dynamic Dashboard: 
+- Tap a button on the dashboard to change the hiking image randomly.
 ### Settings Page:
--View app information
--Change the app icon
--Learn about the app
+- View app information
+- Change the app icon
+- Learn about the app
 
 ## Light Mode:
 
@@ -34,19 +35,19 @@ https://github.com/Faizulkarim/Hike/assets/19513689/6bb8ac93-0e5c-4792-b3d2-85ab
 
 ## Learning Points:
 
--3D Effects: Learn how to add 3D effects to views.
--Modular UI Components: Understand how to create separate, reusable UI components.
--Linear Gradients: Explore the use of linear gradients in SwiftUI.
--Gradient Animations: Create smooth gradient animations.
--Motion Animations: Implement engaging motion animations.
--Performance Optimization with drawingGroup(): Use the drawingGroup() modifier for high-performance Metal rendering. This modifier enables SwiftUI to render content into an offscreen image before displaying it on the screen, significantly improving performance for complex animations.
--Custom LabeledContent: Learn how to create and use custom labeled content.
--Alternative App Icons: Implement alternative icons for the app, allowing users to personalize their app experience.
+- 3D Effects: Learn how to add 3D effects to views.
+- Modular UI Components: Understand how to create separate, reusable UI components.
+- Linear Gradients: Explore the use of linear gradients in SwiftUI.
+- Gradient Animations: Create smooth gradient animations.
+- Motion Animations: Implement engaging motion animations.
+- Performance Optimization with drawingGroup(): Use the drawingGroup() modifier for high-performance Metal rendering. This modifier enables SwiftUI to render content into an offscreen image before displaying it on the screen, significantly improving performance for complex animations.
+- Custom LabeledContent: Learn how to create and use custom labeled content.
+- Alternative App Icons: Implement alternative icons for the app, allowing users to personalize their app experience.
 
 ## Installation
-Clone the repository
-Open the project in Xcode
-Build and run the app on your simulator or device
+- Clone the repository
+- Open the project in Xcode
+- Build and run the app on your simulator or device
 
 ## 
 ## 
