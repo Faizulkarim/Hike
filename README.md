@@ -6,6 +6,7 @@ Hike is a demo iOS app developed to practice SwiftUI. The app features a dynamic
 
 ## Features
 ***Dynamic Dashboard:*** Tap a button on the dashboard to change the hiking image randomly.
+
 ***Settings Page:*** View app information, Change the app icon, Learn about the app
 
 ## Screenshot
@@ -44,7 +45,7 @@ https://github.com/Faizulkarim/Hike/assets/19513689/6bb8ac93-0e5c-4792-b3d2-85ab
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/yourusername/FruitsWorld.git](https://github.com/Faizulkarim/Hike.git)
+   git clone https://github.com/Faizulkarim/Hike.git
 2. Open the project in Xcode
 3. Build and run the app on your simulator or device
 
